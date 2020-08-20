@@ -14,7 +14,6 @@
                         'Elixir.TrainingSrvr.Application',
                         'Elixir.TrainingSrvr.DataCase',
                         'Elixir.TrainingSrvr.Repo',
-                        'Elixir.TrainingSrvr.Videos',
                         'Elixir.TrainingSrvr.Videos.ImageClass',
                         'Elixir.TrainingSrvr.Videos.VideoFolder',
                         'Elixir.TrainingSrvr.Videos.VideoFrame',
