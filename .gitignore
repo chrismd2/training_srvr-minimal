@@ -1,0 +1,50 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+anno_editor-*.tar
+
+# If NPM crashes, it generates a log, let's ignore it too.
+npm-debug.log
+
+# The directory NPM downloads your dependencies sources to.
+/assets/node_modules/
+
+# Since we are building assets from assets/,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+
+# For development purposes we want to commit a specific folder of images/videos
+# All images except the 6_F017 folder must be individually included in .gitignore
+# Eventually we'll need to return to just /priv/static/
+/priv/static/js/
+/priv/static/css/
+/priv/static/favicon.ico
+/priv/static/robots.txt
+
+/.vscode/
+
+*.hide
+
+/data/
+
+/hide/
+

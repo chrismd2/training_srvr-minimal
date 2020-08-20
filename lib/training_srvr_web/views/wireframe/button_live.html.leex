@@ -1,0 +1,18 @@
+<h1>Single Button On/Off</h1>
+<div id="light">
+  <div >
+    <span >
+        <%= @on %>
+    </span>
+  </div>
+
+  <button phx-click="button_switch" phx-value-btn-name="myButton" value="Something" class="<%= @btn_style %>">
+    myButton <%= @on %>
+  </button>
+</div>
+<div id="notLight">
+  <button phx-click="class_button_switch" phx-value-btn-name="mySecondButton" value="SomethingElse" class="<%= @btn_style %>">
+    mySecondButton <%= @on %>
+  </button>
+</div>
+
